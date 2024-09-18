@@ -38,12 +38,12 @@
       },
     },
     mounted() {
-      this.$store.dispatch('fetchVoos'); // Dispatch para buscar os voos
+      this.$store.dispatch('fetchVoos');
     },
   };
   </script>
   
   <style scoped>
-  /* Estilos personalizados, se necessário */
+ 
   </style>
   

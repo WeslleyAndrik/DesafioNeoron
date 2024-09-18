@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     fetchVoos() {
-      // Método para buscar voos atualizados
+      
       this.$store.dispatch('fetchVoos');
     },
   },
@@ -31,9 +31,9 @@ export default {
 </script>
 
 <style>
-/* Estilos globais, se necessário */
+
 #app {
   min-height: 100vh;
-  background: #f0f2f5; /* Cor de fundo para contraste */
+  background: #f0f2f5; 
 }
 </style>
